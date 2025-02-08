@@ -154,5 +154,25 @@
         </div>
       </div>
     </main>
+    <div class="form-container">
+      <div class="add-project-form">
+        <form action="#">
+          <label for="title">Project Title:</label><br>
+          <input type="text" id="title" name="title" required><br><br>
+          <label for="description">Description:</label><br>
+          <textarea id="description" name="description"></textarea><br><br>
+          <label for="due_date">Due Date:</label><br>
+          <input type="date" id="due_date" name="due_date"><br><br>
+          <label for="priority">Priority:</label><br>
+          <select id="priority" name="priority">
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select><br><br>
+          <input type="submit" value="Add Project">
+        </form>
+      </div>
+      
+    </div>
   </body>
 </html>
