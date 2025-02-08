@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GetDone-TodoList</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- side nav -->
+    <aside>
+      <nav>
+        <header>
+          <i class="fa-solid fa-hourglass-end"></i>
+          <h1>GetDone</h1>
+        </header>
+        <div class="projects-nav">
+          <h2>Projects</h2>
+          <ul class="pro-nav" id="projects">
+            <li class="active">Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="add-project">
+        <div>
+          <i class="fa-solid fa-circle-plus"></i>
+          <p>Add Project</p>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <div class="main-header">
+        <h2>Projects</h2>
+        <div class="filter">
+          <div>
+            <p>Sort By: </p>
+            <select id="sortBy" name="sortBy">
+              <option value="dueDate-asc">Due Date (Earliest)</option>
+              <option value="dueDate-desc">Due Date (Latest)</option>
+              <option value="createdDate-asc">Created (Oldest)</option>
+              <option value="createdDate-desc">Created (Newest)</option>
+              <option value="modifiedDate-asc">Modified (Oldest)</option>
+              <option value="modifiedDate-desc">Modified (Newest)</option>
+              <option value="completed">Completed</option>
+            </select>
+          </div>
+          <div>
+            <p>Priority: </p>
+            <select id="filterPriority" name="filterPriority">
+              <option value="all">All</option>
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        
+      </div>
+    </main>
+  </body>
+</html>
