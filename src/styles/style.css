@@ -137,7 +137,7 @@ main .filter select {
   transition: border-color 0.3s ease; 
 
   &:hover {
-    border-color: #999; /
+    border-color: #999; 
   }
 
   &:focus {
@@ -198,22 +198,21 @@ main .proj-card .priority-box {
   text-align: center;
   padding: 0 4px;
   border-radius: 5px;
-  /* background-color: green; */
 }
 
 .priority-high {
-  background-color: #f5f5f5; /* Very light gray - almost white */
-  border-left: 4px solid #e53935; /* Red accent */
+  background-color: #f5f5f5; 
+  border-left: 4px solid #e53935; 
 }
 
 .priority-middle {
-  background-color: #fafafa; /* Slightly darker light gray */
-  border-left: 4px solid #ffeb3b; /* Yellow accent */
+  background-color: #fafafa; 
+  border-left: 4px solid #ffeb3b; 
 }
 
 .priority-low {
-  background-color: #ffffff; /* White */
-  border-left: 4px solid #4caf50; /* Green accent */
+  background-color: #ffffff; 
+  border-left: 4px solid #4caf50; 
 }
 
 /* FORMS STYLE */
