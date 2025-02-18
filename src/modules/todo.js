@@ -1,8 +1,8 @@
 import {validateDate, parseDate} from "./utils.js"
 
 export class Todo {
-    constructor(title, dueDate, priority) {
-        this.title = title;
+    constructor(task, dueDate, priority) {
+        this.task = task;
         this.dueDate = validateDate(parseDate(dueDate));
         this.priority = priority;
         this.note = []; 
@@ -11,8 +11,8 @@ export class Todo {
         this.nextChecklistItemId = 1;
     }
 
-    setTitle(newTitle) { 
-        this.title = newTitle;
+    setTask(newTask) { 
+        this.task = newTask;
     }
 
     setPriority(newPriority) {
